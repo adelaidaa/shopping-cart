@@ -1,7 +1,6 @@
-This is a short object oriented programming
-test.
+This is a short object oriented programmingtest.
 
-Online marketplace, here is a sample of some of the products available on our site:
+An Online marketplace, here is a sample of some of the products available on our site:
 
 Product code | Name | Price
 ----------------------------------------------------------
