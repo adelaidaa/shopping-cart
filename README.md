@@ -4,9 +4,9 @@ An Online marketplace, here is a sample of some of the products available on our
 
 Product code | Name | Price
 ----------------------------------------------------------
-001 | Travel Card Holder | £9.25
-002 | Personalised cufflinks | £45.00
-003 | Kids T-shirt | £19.95
+001 | Travel Card Holder | £9.25 <br />
+002 | Personalised cufflinks | £45.00 <br />
+003 | Kids T-shirt | £19.95 <br />
 
 Our marketing team want to offer promotions as an incentive for
 our customers to purchase these items.
