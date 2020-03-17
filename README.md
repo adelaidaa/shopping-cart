@@ -25,12 +25,12 @@ Implement a checkout system that fulfils these requirements.
 
 Test data
 ---------
-Basket: 001,002,003
-Total price expected: £66.78
-Basket: 001,003,001
-Total price expected: £36.95
-Basket: 001,002,001,003
-Total price expected: £73.76
+Basket: 001,002,003 <br />
+Total price expected: £66.78<br /><br />
+Basket: 001,003,001<br />
+Total price expected: £36.95<br /><br />
+Basket: 001,002,001,003<br />
+Total price expected: £73.76<br /><br />
 
 This is a simple implementation for the Checkout interface to be able to 
 apply promotions on a Checkout scenario making easy to add new promotions 
