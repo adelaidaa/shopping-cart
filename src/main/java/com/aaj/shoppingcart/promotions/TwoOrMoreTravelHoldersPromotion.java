@@ -1,6 +1,6 @@
 package com.aaj.shoppingcart.promotions;
 
-public class TwoOrMoreTravelHoldersPromotion extends ReducedPricePromotionRule  {
+public class TwoOrMoreTravelHoldersPromotion extends ReducedPricePromotion {
 
     private static final long PRODUCT_CODE = 001L;
     private static final int ITEMS_TO_APPLY_PROMOTION = 2;

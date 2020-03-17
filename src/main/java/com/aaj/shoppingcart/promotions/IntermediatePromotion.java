@@ -4,7 +4,7 @@ import com.aaj.shoppingcart.Product;
 
 import java.util.List;
 
-public abstract class IntermediatePromotionRule extends PromotionRule {
+public abstract class IntermediatePromotion extends PromotionRule {
     @Override
     public PromotionType getType() {
         return PromotionType.INTERMEDIATE;

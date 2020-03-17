@@ -1,8 +1,8 @@
 package com.aaj.shoppingcart;
 
 import com.aaj.shoppingcart.promotions.PromotionRule;
-import com.aaj.shoppingcart.promotions.IntermediatePromotionRule;
-import com.aaj.shoppingcart.promotions.TerminalPromotionRule;
+import com.aaj.shoppingcart.promotions.IntermediatePromotion;
+import com.aaj.shoppingcart.promotions.TerminalPromotion;
 import lombok.EqualsAndHashCode;
 
 import java.util.ArrayList;
@@ -40,7 +40,7 @@ public class Checkout {
     private double getTotalPriceDeductingIntermediateDiscounts(Map<PromotionRule.PromotionType, List<PromotionRule>> promotionsByType) {
         double intermediateDiscountsSum = promotionsByType.get(PromotionRule.PromotionType.INTERMEDIATE)
                 .stream()
-                .mapToDouble(promotionRule -> ((IntermediatePromotionRule) promotionRule).calculateDiscount(items))
+                .mapToDouble(promotionRule -> ((IntermediatePromotion) promotionRule).calculateDiscount(items))
                 .sum();
 
         return items
@@ -53,7 +53,7 @@ public class Checkout {
                                                            double totalPrice) {
         List<PromotionRule> terminalPromotionRules = promotionsByType.get(PromotionRule.PromotionType.TERMINAL);
         for (PromotionRule rule : terminalPromotionRules) {
-            totalPrice = ((TerminalPromotionRule) rule).calculateDiscount(totalPrice);
+            totalPrice = ((TerminalPromotion) rule).calculateDiscount(totalPrice);
         }
         return totalPrice;
     }
