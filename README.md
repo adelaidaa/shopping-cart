@@ -2,11 +2,13 @@ This is a short object oriented programming
 test.
 
 Online marketplace, here is a sample of some of the products available on our site:
+
 Product code | Name | Price
 ----------------------------------------------------------
 001 | Travel Card Holder | £9.25
 002 | Personalised cufflinks | £45.00
 003 | Kids T-shirt | £19.95
+
 Our marketing team want to offer promotions as an incentive for
 our customers to purchase these items.
 If you spend over £60, then you get 10% off your purchase
@@ -21,6 +23,7 @@ co.scan(item);
 co.scan(item);
 Double price = co.total();
 Implement a checkout system that fulfils these requirements.
+
 Test data
 ---------
 Basket: 001,002,003
