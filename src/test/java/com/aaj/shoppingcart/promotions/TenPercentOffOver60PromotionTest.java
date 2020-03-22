@@ -1,6 +1,5 @@
 package com.aaj.shoppingcart.promotions;
 
-import com.aaj.shoppingcart.promotions.TenPercentOffOver60Promotion;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
