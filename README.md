@@ -1,12 +1,13 @@
-This is a short object oriented programming
-test.
+This is a short object oriented programmingtest.
 
-Online marketplace, here is a sample of some of the products available on our site:
+An Online marketplace, here is a sample of some of the products available on our site:
+
 Product code | Name | Price
 ----------------------------------------------------------
-001 | Travel Card Holder | £9.25
-002 | Personalised cufflinks | £45.00
-003 | Kids T-shirt | £19.95
+001 | Travel Card Holder | £9.25 <br />
+002 | Personalised cufflinks | £45.00 <br />
+003 | Kids T-shirt | £19.95 <br />
+
 Our marketing team want to offer promotions as an incentive for
 our customers to purchase these items.
 If you spend over £60, then you get 10% off your purchase
@@ -21,14 +22,15 @@ co.scan(item);
 co.scan(item);
 Double price = co.total();
 Implement a checkout system that fulfils these requirements.
+
 Test data
 ---------
-Basket: 001,002,003
-Total price expected: £66.78
-Basket: 001,003,001
-Total price expected: £36.95
-Basket: 001,002,001,003
-Total price expected: £73.76
+Basket: 001,002,003 <br />
+Total price expected: £66.78<br /><br />
+Basket: 001,003,001<br />
+Total price expected: £36.95<br /><br />
+Basket: 001,002,001,003<br />
+Total price expected: £73.76<br /><br />
 
 This is a simple implementation for the Checkout interface to be able to 
 apply promotions on a Checkout scenario making easy to add new promotions 
